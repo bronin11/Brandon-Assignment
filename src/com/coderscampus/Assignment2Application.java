@@ -49,10 +49,10 @@ public class Assignment2Application {
 			
 		//If Guesses Count is Reached, Means Not Guessed
 			if (guesses == 5) {
-					System.out.println("You Lose, the Number to Guess Was " + number);
+				System.out.println("You Lose, the Number to Guess Was " + number);
 			}
 			else {
-					System.out.println("You Win!");
+				System.out.println("You Win!");
 			}
 		}
 }
