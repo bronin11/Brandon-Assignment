@@ -12,12 +12,12 @@ public class Assignment2Application {
 			
 		//Input Guesses Count
 			int guesses = 0;
-		//Store the User Inout
+		//Store the User Input
 			int guess;
 		//Scanner Instance to Read User Input
 			Scanner input = new Scanner(System.in);
 			
-		//Loop Until 5 Guesses are Met
+		//Loop Until 5 Valid Guesses are Met
 			while (guesses < 5) {
 				System.out.println("Pick a number between 1 and 100: ");
 				guess = input.nextInt();
