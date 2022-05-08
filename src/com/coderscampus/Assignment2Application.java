@@ -23,10 +23,9 @@ public class Assignment2Application {
 				guess = input.nextInt();
 				
 		//Validate the User Input to See if Within Range
-		//If Input is Out Of Bounds, Print Message and Increase Guess Count by 1
+		//If Input is Out Of Bounds, Print Message and  Do Not Increase Guess Count by 1
 			if (guess < 1 || guess > 100) {
 				System.out.println("Your Guess is Not Between 1 and 100. Please Try Again");
-				guesses++;
 			}
 				
 		// If Input is Below Generated Number, Print Message and Increase Guess Count by 1
